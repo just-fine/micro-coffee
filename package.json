@@ -1,0 +1,19 @@
+{
+  "name": "micro-coffee",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "git@github.com:just-fine/micro-coffee.git",
+  "author": "WittBulter <nanazuimeng123@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "micro-dev app.js",
+    "now-build": "coffee --compile --output ./ *.coffee"
+  },
+  "dependencies": {
+    "micro": "^9.3.3"
+  },
+  "devDependencies": {
+    "coffeescript": "^2.3.2",
+    "micro-dev": "^3.0.0"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "micro-coffee",
+  "version": 2,
+  "alias": "micro-coffee",
+  "builds": [
+    { "src": "app.js", "use": "now-micro" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "app.js" }
+  ]
+}
